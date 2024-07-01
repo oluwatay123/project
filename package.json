@@ -1,0 +1,19 @@
+{
+  "name": "hng-servam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:c0deMercenary/hng-servam.git",
+  "author": "c0demercenary <hoyx0101@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "request-ip": "^3.3.0"
+  }
+}
